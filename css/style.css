@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: gray;
+}
+
+/* INIZIO CLASSI LAYOUT*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-row{
+    margin-top: 50px;
+}
+
+.col-14{
+    margin: 5px;
+    width: calc(100% / 7 - 10px);
+    background-color: red;
+    border: 1px solid white;
+    height: 100px;
+}
+
+.col-25{
+    width: 25%;
+    border: 1px solid blue;
+    height: 75px;
+}
+
+.col-50{
+    width: 50%;
+    border: 1px solid blue;
+    height: 75px;
+}
+/* FINE CLASSI LAYOUT*/
