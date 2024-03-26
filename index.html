@@ -11,8 +11,8 @@
         <main>
             <!-- SEZIONE PRINCIPALE -->
             <div class="container">
-                <!-- UNICA RIGA -->
-                <div class="row main-row">
+                <!-- UNICA RIGA DEL MAIN -->
+                <div class="row">
                     <!-- 35 COLONNE DA WIDTH 14% -->
                     <div class="col-14">
                         <!-- <img src="https://fastly.picsum.photos/id/830/200/300.jpg?hmac=YHS3854_x-GHeQToxsiUmEvBJpDbZOAyixX9nxz61Sg" alt=""> -->
@@ -58,12 +58,63 @@
         <footer>
             <!-- SEZIONE FOOTER -->
             <div class="container-full">
-                <div class="row footer-row">
-                    <div class="col-25"></div>
-                    <div class="col-50"></div>
-                    <div class="col-25"></div>
+                <div class="row">
+                    <!-- PRIMA COLONNA DA 25% -->
+                    <div class="col-25 justify-start">
+                        <div class="text-center">
+                            <img src="./img/mic-muted.png" alt="micro">
+                            <div>Mute</div>
+                        </div>
+                        &uparrow;
+                        <div class="text-center">
+                            <img src="./img/videocamera.png" alt="video">
+                            <div>Stop Video</div>
+                        </div>
+                        &uparrow;
+                    </div>
+                    <!-- SECONDA COLONNA DA 50% -->
+                    <div class="col-50">
+                        <div class="text-center">
+                            <img src="./img/add-friend.png" alt="invite">
+                            <div>Invite</div>
+                        </div>
+                        <div class="text-center">
+                            <img src="./img/friends.png" alt="manage participants">
+                            <div>Manage participants</div>
+                        </div>
+                        <div class="text-center">
+                            <img src="./img/bar-graph.png" alt="polling">
+                            <div>Polling</div>
+                        </div>
+                        <div class="text-center">
+                            <img class="share" src="./img/share.png" alt="share screen">
+                            <div>Share screen</div>
+                        </div>
+                        &uparrow;
+                        <div class="text-center">
+                            <img src="./img/chat.png" alt="chat">
+                            <div>Chat</div>
+                        </div>
+                        <div class="text-center">
+                            <img src="./img/record.png" alt="record">
+                            <div>Record</div>
+                        </div>
+                        <div class="text-center">
+                            <img src="./img/window.png" alt="breakout rooms">
+                            <div>Breakout Rooms</div>
+                        </div>
+                        <div class="text-center">
+                            <img src="./img/more.png" alt="more">
+                            <div>More</div>
+                        </div>
+                    </div>
+                    <!-- TERZA COLONNA DA 25% -->
+                    <div class="col-25 justify-end">
+                        <button>End meeting</button>
+                    </div>
                 </div>
             </div>
         </footer>
+
     </body>
 </html>
